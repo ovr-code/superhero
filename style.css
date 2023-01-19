@@ -108,3 +108,20 @@ button:hover {
   list-style: none;
   padding: 0;
 }
+
+.superhero_img_small {
+  width: 100px;
+  object-fit: contain;
+}
+
+.flex-guy {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.history_name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
